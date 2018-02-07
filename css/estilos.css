@@ -142,7 +142,7 @@ header nav ul li a {
     background-image: url('../img/night-3084237_1920 (1).jpg');
     background-position: center bottom;
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; Para evitar problemas en retina (tiene 3 pixels en 1) */
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -412,6 +412,12 @@ li {
 }
 
 /*Media Queries*/
+
+@media (min-width: 1440px) {
+    .hero {
+        background-attachment: fixed; /* El efecto parallax sólo funcionará en dispositivos de más de 1440*/
+    }
+}
 
 /* @media (max-width: 920px) {
     
