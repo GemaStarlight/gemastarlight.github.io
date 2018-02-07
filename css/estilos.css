@@ -215,7 +215,6 @@ header nav ul li a {
 .col101 {
     /* border: 1px solid rgb(215, 172, 255); */ 
     padding: 0px;
-    padding-right: 10px;
     /* width: 100%; */
     display: flex;
     justify-content: center;
