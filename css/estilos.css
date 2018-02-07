@@ -411,6 +411,10 @@ li {
     line-height: 1.5em;
 }
 
+.image {
+    border-radius: 50%;
+}
+
 /*Media Queries*/
 
 @media (min-width: 1440px) {
